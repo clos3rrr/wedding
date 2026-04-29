@@ -92,7 +92,9 @@ function Section7() {
             textAlign: "center",
             color: "#220503",
             opacity: visible ? 1 : 0,
-            transform: visible ? "translate3d(0, 0, 0)" : "translate3d(0, 20px, 0)",
+            transform: visible
+              ? "translate3d(0, 0, 0)"
+              : "translate3d(0, 20px, 0)",
             transition: "opacity 0.7s ease-out, transform 0.7s ease-out",
             transitionDelay: "0.15s",
             willChange: "transform, opacity",
@@ -111,14 +113,16 @@ function Section7() {
             display: "flex",
             justifyContent: "center",
             opacity: visible ? 1 : 0,
-            transform: visible ? "translate3d(0, 0, 0)" : "translate3d(0, 20px, 0)",
+            transform: visible
+              ? "translate3d(0, 0, 0)"
+              : "translate3d(0, 20px, 0)",
             transition: "opacity 0.7s ease-out, transform 0.7s ease-out",
             transitionDelay: "0.3s",
             willChange: "transform, opacity",
           }}
         >
           <a
-            href="https://instagram.com/"
+            href="https://www.instagram.com/andrey_dedushkevich"
             target="_blank"
             rel="noopener noreferrer"
             style={{
