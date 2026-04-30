@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Manrope:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Manrope:wght@300;400;500&display=swap");
 
 @import "tailwindcss";
 
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Manrope', Arial, sans-serif;
+  font-family: "Manrope", Arial, sans-serif;
   color: #220503;
   background-color: #e8ded4;
   line-height: 1.35;
@@ -27,7 +27,7 @@ body {
   overflow-x: clip;
 }
 
-/* Tilda-style artboard section */
+/* Tilda-style artboard section  */
 .section {
   position: relative;
   width: 320px;
